@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!---links to local bootstrap library and scss file-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href = "stylesheet.css" type = "text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type='text/javascript' src="capstone.js"></script>
+
+    <title>Contact Me!</title>
+
+
+    </style>
+  </head>
+  <!---to make background red-->
+  <body style="background-color: rgb(175, 26, 26);">
+            <!---Navbar-->
+    <nav class="navbar navbar-inverse center">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+               <!--top left logo-->
+          <a class="navbar-brand thumbnail" href="index.html">
+              <img src="images/jimi.webp" width="55" height="55" alt="">
+          </a>
+        </div>
+            <!---centre navbar elements with links to other pages-->
+        <div class="navbar-inner" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+              <li><a href="index.html">ICONIC GUITARS</a></li>
+              <li><a href="players.html">ICONIC PLAYERS</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="favorites.html">MY FAVORITES</a></li>
+          </ul>
+    </nav>
+
+    <div class="container dropdownDiv">
+        <h1>CONTACT ME!</h1>
+        <div class="dropdown" style="display: none;">
+          <ul>
+            <li>Phone Number: 0820111446</li>
+            <li>Email Address: bowwaddy@gmail.com</li>
+            <li>Address: 41 Long Street, Cape Town</li>
+          </ul>
+        </div>
+    </div>
+
+    <hr>
+    
+    <!---Subscription form group-->
+    <div class="container">
+        <h2>SUBSCRIBE FOR MORE GUITAR FACTS :)</h2>
+        <form>
+            <div class="form-group">
+              <label>Put your email right here!</label>
+              <br>
+              <input type="text" id="emailInp" class="center-block" placeholder="Enter your email">
+              <input type="submit" class="btn btn-default center-block emailBtn" value="Submit">
+            </div>
+        <form>
+    </div>
+
+    <hr>
+
+    <!---Links to external sites and email -->
+    <div class="container">
+      <h2>ALTERNATIVELY CONTACT ME VIA EMAIL: </h2>
+      <div style="text-align: center;">
+        <a href="mailto:bowwaddy@gmail.com">bowwaddy@gmail.com</a>
+      </div>
+      <br>
+      <h2>BUY GUITARS:</h2>
+      <div style="text-align: center;">
+        <a href="gibson.com">Buy Gibsons</a>
+      </div>
+      <div style="text-align: center;">
+        <a href="fender.com">Buy Fenders</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <!---Radio form group-->
+    <div class="container">
+        <h2> Quick Poll!</h2>
+        <p>Please pick your favorite guitarist out of all the ones mentioned on this site:</p>
+        <div class="radio">
+            <label><input type="radio" name="optradio" checked>Jimi Hendrix</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="optradio">Slash</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="optradio">Eddie Van Halen</label>
+          </div>
+          <input type="submit" class="btn btn-default center-block" value="Submit">
+    </div>
+
+    <hr>
+
+    <div class="commentBlock">
+      <h1>COMMENTS</h1>
+       <!-- used by #{user} to create a new comment -->
+      <form> 
+        <div>
+          <input type="text" class="center-block create_new_comment" placeholder="Leave a comment!" id="comment">
+        </div>
+        <div>
+          <input type="submit" class="btn btn-default center-block commentBtn" value="Submit">
+        </div>
+      </form>  
+      <br>
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script> 
+  </body>
+</html>

@@ -1,0 +1,91 @@
+$main-colour: black;
+$secondary-colour: white;
+$font-size: 22pt;
+
+
+a {
+    color: $main-colour;
+    font-family: Georgia;
+    font-size: $font-size;
+    font-style: bold;
+}
+
+p {
+    text-align: center;
+    color: $secondary-colour;
+    font-family: Georgia;
+    font-size: $font-size;
+    background-color: $main-colour;
+}
+
+h1 {
+    text-align: center;
+    color: $main-colour;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: $font-size * 2;
+    font-style: bold;    
+}
+
+h2 {
+    text-align: center;
+    color: $main-colour;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: $font-size * 2 - 8;
+    font-style: bold;    
+}
+
+h3 {
+    text-align: center;
+    color: $main-colour;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: $font-size;
+    font-style: bold;    
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+.navbar.center .navbar-inner .nav {
+    float: none;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+label {
+    text-align: center;
+    color: $main-colour;
+    font-size: $font-size - 6;
+    margin: auto;
+    display: block;
+}
+
+.center-block {
+    margin: auto;
+    display: block;
+}
+
+.center-img {           
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    border: 5px solid black;
+}
+
+hr{
+    border-color: black;
+}
+
+.list-unstyled {
+    text-align: center;
+    color: $secondary-colour;
+    font-family: Georgia;
+    font-size: $font-size;
+}
+
+.create_new_comment {
+    height:50px;
+    width:500px;
+}

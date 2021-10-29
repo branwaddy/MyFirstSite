@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!---links to local bootstrap library and scss file-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href = "stylesheet.css" type = "text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type='text/javascript' src="capstone.js"></script>
+
+    <title>I Love Guitars!</title>
+
+
+    </style>
+  </head>
+  <!---to make background red-->
+  <body style="background-color: rgb(175, 26, 26);">
+            <!---Navbar-->
+    <nav class="navbar navbar-inverse center">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+               <!--top left logo-->
+          <a class="navbar-brand thumbnail" href="#">
+              <img src="images/jimi.webp" width="55" height="55" alt="">
+          </a>
+        </div>
+            <!---centre navbar elements-->
+        <div class="navbar-inner" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+              <li><a href="index.html">ICONIC GUITARS</a></li>
+              <li><a href="players.html">ICONIC PLAYERS</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="favorites.html">MY FAVORITES</a></li>
+          </ul>
+    </nav>
+
+    <div class="container">
+        <h1>SOME OF THE MOST ICONIC GUITARS IN HISTORY</h1>
+        <p style="background-color: transparent;">On this page I'll be taking you through some of the most iconic guitars in history :)</p>
+    </div>
+
+    <HR>
+      
+    <!---A few iconic guitars with a little bio in a block for each-->
+    <div class="container" id="lesPaul">
+        <h1>GIBSON LES PAUL</h1>
+        <img class="center-img" src="images/lesPaul.webp">
+        <p>The Gibson Les Paul is a heavy "thick" sounding guitar created by Les Paul. It is arguably the most iconic looking guitar in history. <br>
+        It is used by players that wish to have a bite to their sound, and was used by many of the original hard rock guitarists such as Jimmy Page and Slash.</p>
+        <input type="submit" class="btn btn-default center-block favoriteBtn" value="Add to Favorites">
+        <input type="submit" class="btn btn-primary likeBtn" value="Like this article" id="1">
+    </div>
+    <br>
+    <br>
+    <div class="container" id="fenderStrat">
+        <h1>FENDER STRATOCASTER</h1>
+        <img class="center-img" src="images/fenderStrat.jpeg">
+        <p>The Fender Stratocaster is a lighter "thin" sounding guitar created by Leo Fender. <br>
+        It is used by players that wish to have a warm bluesiness to their sound, and was used by many of blues guitarists such as Eric Clapton and Jimi Hendrix.</p>
+        <input type="submit" class="btn btn-default center-block favoriteBtn" value="Add to Favorites">
+        <input type="submit" class="btn btn-primary likeBtn" value="Like this article" id="2">
+    </div>
+    <br>
+    <br>
+    <div class="container" id="fenderTele">
+        <h1>FENDER TELECASTER</h1>
+        <img class="center-img" src="images/fenderTele.jpeg">
+        <p>The Fender Stratocaster is also lighter and thin sounding guitar, and is also created by Leo Fender. <br>
+        It is different from the Strat in that it sounds scratchy and twangy, which made it more preferred by country and heartland rock guitarists
+        like Keith Richards and Bruce Springsteen.</p>
+        <input type="submit" class="btn btn-default center-block favoriteBtn" value="Add to Favorites">
+        <input type="submit" class="btn btn-primary likeBtn" value="Like this article" id="3">
+    </div>
+
+    <hr>
+
+    <!---TABLE OF GUITARS-->
+    <div class="container" id="table">
+        <h1>TABLE OF SOME ICONIC GUITARS</h1>
+        <table class="table table-bordered table-condensed" style="color: white;">
+          <tr>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Creator</th>
+            <th>Debut Year</th>
+          </tr>
+          <tr>
+            <td>Gibson</td>
+            <td>Les Paul</td>
+            <td>Les Paul</td>
+            <td>1952</td>
+          </tr>
+          <tr>
+            <td>Gibson</td>
+            <td>SG</td>
+            <td>Les Paul</td>
+            <td>1961</td>
+          </tr>
+          <tr>
+            <td>Fender</td>
+            <td>Stratocaster</td>
+            <td>Leo Fender</td>
+            <td>1954</td>
+          </tr>
+          <tr>
+            <td>Fender</td>
+            <td>Telecaster</td>
+            <td>Leo Fender</td>
+            <td>1950</td>
+          </tr>
+        </table>
+        <input type="submit" class="btn btn-default center-block favoriteBtn" value="Add to Favorites">
+        <input type="submit" class="btn btn-primary likeBtn" value="Like this article" id="4">
+    </div>
+
+
+    <hr>
+
+    <!-- comments container -->
+		<div class="commentBlock">
+      <h1>COMMENTS</h1>
+       <!-- used by #{user} to create a new comment -->
+      <form> 
+        <div>
+          <input type="text" class="center-block create_new_comment" placeholder="Leave a comment!" id="comment">
+        </div>
+        <div>
+          <input type="submit" class="btn btn-default center-block commentBtn" value="Submit">
+        </div>
+      </form> 
+      <br> 
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script> 
+  </body>
+</html>
