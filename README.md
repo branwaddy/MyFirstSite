@@ -19,8 +19,9 @@ Launch 'index.html'. Click any headings at the top of the page to see various se
 
 ## Screenshots
 
-<img width="1440" alt="Screenshot 2021-10-31 at 21 47 34" src="https://user-images.githubusercontent.com/93379889/139599141-b666158d-fb71-42cb-8b85-dfa806ad177d.png"><img width="1440" alt="Screenshot 2021-10-31 at 21 47 24" src="https://user-images.githubusercontent.com/93379889/139599146-a63b383a-efba-41db-b670-859399bab29e.png">
-<img width="1440" alt="Screenshot 2021-10-31 at 21 47 12" src="https://user-images.githubusercontent.com/93379889/139599148-11d45a83-1470-4c86-b507-f46b4970642c.png">
+<img width="1440" alt="Screenshot 2021-10-31 at 21 47 34" src="https://user-images.githubusercontent.com/93379889/139599210-314ebd0c-e6a8-451b-afd6-5f85ec0f621a.png">
+<img width="1440" alt="Screenshot 2021-10-31 at 21 47 12" src="https://user-images.githubusercontent.com/93379889/139599213-78aa301c-5ac3-4235-a201-c8331f7a6836.png">
+<img width="1440" alt="Screenshot 2021-10-31 at 21 47 24" src="https://user-images.githubusercontent.com/93379889/139599218-b41c9088-9b34-4951-86d9-06926dedd4da.png">
 
 ## Credits
 
