@@ -2,6 +2,8 @@
 
 A website I made for an assignment in my Fullstack Web and Software Engineer course. It is informative about guitars and guitarists. I used Bootstrap to give it a sleek look. It has a form for **comments**, functions where you can **like** articles, and **save them for later**. The save for later function also adds these links to a page where you can find all the articles you saved.
 
+View at https://branwaddy.github.io/CapstoneWebsite/
+
 ## Contents:
 
 1. Installation instructions
